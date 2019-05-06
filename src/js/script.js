@@ -173,7 +173,6 @@ function sliderTouchEnd (event) {
 
 
 
-console.log(thirdScreen.querySelector('.toggle .toggle__handle'));
 
 thirdScreen.querySelector('.toggle .toggle__handle').addEventListener('touchstart', sliderTouchStart);
 thirdScreen.querySelector('.toggle .toggle__handle').addEventListener('touchmove', sliderTouchMove);
